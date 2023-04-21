@@ -1,9 +1,9 @@
 <h2 align="center">
-    ──『 ツ 𝙆 𝙄 𝙈 𝙅 𝙄 𝙆 𝙊 𝙄 𝙉 ➢ 』──
+    ────
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/8c78951f44aa036252af9.jpg">
+  <img src="https://te.legra.ph/file/eb42837f939e2942a1eaa.jpg">
 </p>
 
 <p align="center">
