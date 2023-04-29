@@ -1,5 +1,5 @@
 {
-    "name": "『 ツ 𝙆 𝙄 𝙈 𝙅 𝙄 𝙆 𝙊 𝙄 𝙉 ➢ 』",
+    "name": "『 ツ MUSIC ➢ 』",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://telegra.ph/file/8c78951f44aa036252af9.jpg",
     "keywords": [
@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "8117180",
+        "value": "",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "34ce938c495ce1b2ae0e97fb237e8695",
+        "value": "",
         "required": true
       },
       "BOT_TOKEN": {
@@ -34,11 +34,11 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "『 ツ 𝙆 𝙄 𝙈 𝙅 𝙄 𝙆 𝙊 𝙄 𝙉 ➢ 』",
+        "value": "『 ツ TEAM AGORA ➢ 』",
         "required": true
       },
       "OWNER_ID": {
-        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "description": "The user id(s) of user(s) get from @XDTELEGRAMBOT. Multiple values shall be seperated with a space.",
         "value": "6181817811",
         "required": true
       },
@@ -59,7 +59,7 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "-1001840015978",
+        "value": "",
         "required": true
       }
     },
