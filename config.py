@@ -31,7 +31,7 @@ SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AGORAWORLD")
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1800000"))
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
+SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "18000000"))
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/15beeb2febeac81339e19.mp4")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/27678adec2911baf8d057.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/15beeb2febeac81339e19.mp4",
+    "https://graph.org/file/27678adec2911baf8d057.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://graph.org/file/27678adec2911baf8d057.jpg"
@@ -130,7 +130,7 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://graph.org/file/15beeb2febeac81339e19.mp4"
+            PING_IMG_URL = "https://graph.org/file/27678adec2911baf8d057.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
