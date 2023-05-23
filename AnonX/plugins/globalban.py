@@ -111,7 +111,7 @@ async def gungabn(client, message: Message, _):
         except Exception:
             pass
     await remove_banned_user(user_id)
-    await message.reply_sticker("CAACAgUAAxkBAAIjbGKPb3oOFXIT3KSxlIoefG7jTLOiAAJuBgAC_415VDBZlDYZrGxCJAQ")
+    await message.reply_sticker("CAACAgEAAx0CbWlwNAACAcxkbHg-t-f6OcFS-Se0srCRAv_38wAChQADwKwII6SrOomw-oViLwQ")
     await message.reply_text(
         _["gban_9"].format(mention, number_of_chats)
     )
